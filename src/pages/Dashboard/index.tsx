@@ -3,7 +3,6 @@ import logoimg from '../../assets/logo.svg';
 import { Title, Form, Repositories, Error } from './styles';
 import { FiChevronRight } from 'react-icons/fi';
 import api from '../../services/api';
-import Repository from '../Repository';
 import { Link } from 'react-router-dom';
 
 interface Repository {
